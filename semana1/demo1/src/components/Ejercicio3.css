@@ -1,0 +1,13 @@
+#imagen {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 20px auto;
+  transition: transform 0.6s ease, box-shadow 0.3s;
+  border-radius: 12px;
+}
+
+#imagen:hover {
+  transform: rotate(360deg) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
